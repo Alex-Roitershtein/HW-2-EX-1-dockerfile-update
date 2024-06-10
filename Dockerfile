@@ -32,6 +32,6 @@ RUN pip install \
     pytorch-lightning==2.2.0.post0 \
     torchvision==0.17.0 
    
-WORKDIR /home/ramenchef/STAT315MT
+WORKDIR /home/ramenchef/
 
 CMD jupyter notebook --no-browser --allow-root --ip 0.0.0.0
