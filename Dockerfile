@@ -32,6 +32,6 @@ RUN pip install \
     pytorch-lightning==2.2.0.post0 \
     torchvision==0.17.0 
    
-WORKDIR /home/ramenchef/
+WORKDIR \\wsl.localhost\Ubuntu\home\ramenchef\MIDTERM-EX-1-GROUP-1-Dockerfile-Update
 
 CMD jupyter notebook --no-browser --allow-root --ip 0.0.0.0
