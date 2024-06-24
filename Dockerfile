@@ -8,6 +8,7 @@ RUN apt-get install -y gcc
 RUN apt-get install -y build-essential libpq-dev
 RUN apt-get install -y graphviz
 
+# Upgrade pip to the latest version, Christopher Kim
 RUN pip install --upgrade pip
 
 # Installing packages 
