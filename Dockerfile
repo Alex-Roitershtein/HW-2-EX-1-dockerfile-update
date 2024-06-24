@@ -8,6 +8,7 @@ RUN apt-get install -y gcc
 RUN apt-get install -y build-essential libpq-dev
 RUN apt-get install -y graphviz
 
+# Upgrade pip to the latest version, Christopher Kim
 RUN pip install --upgrade pip
 
 # Installing packages 
@@ -32,6 +33,6 @@ RUN pip install \
     pytorch-lightning==2.2.0.post0 \
     torchvision==0.17.0 
    
-WORKDIR \\wsl.localhost\Ubuntu\home\ramenchef\MIDTERM-EX-1-GROUP-1-Dockerfile-Update
+WORKDIR /home/notebooks/
 
 CMD jupyter notebook --no-browser --allow-root --ip 0.0.0.0
